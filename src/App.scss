@@ -1,0 +1,76 @@
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  height: 100vh;
+
+  @media screen and (max-width: 1439px) {
+    height: auto;
+    flex-direction: column;
+  }
+
+  &-options {
+    background-color: #000;
+    height: 50vh;
+    padding: 50px;
+    border-radius: 15px;
+
+    @media screen and (max-width: 1439px) {
+      height: 45vh;
+      padding: 25px;
+      margin: 50px;
+    }
+  }
+
+  &-inputText,
+  &-radioButton {
+    margin-bottom: 25px;
+    @media screen and (min-width: 767px) and (max-width: 1439px) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  button {
+    margin-left: 30px;
+    background-color: #8e2de2 !important;
+      height: auto;
+      font-size: 12px;
+      margin: 0;
+    
+    @media screen and (min-width: 1439px) {
+      height: auto;
+      font-size: 12px;
+      margin: 0 0 0 0;
+    }
+  }
+
+  input {
+    color: white;
+    height: 30px;
+    outline: none;
+    padding: 2.5px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+
+  textarea {
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    font-family: Arial;
+    font-size: 18px;
+    outline: none;
+    width: 235px;
+  }
+
+  &-textArea {
+    @media screen and (min-width: 767px) and (max-width: 1439px) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

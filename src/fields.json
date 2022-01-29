@@ -1,0 +1,34 @@
+{
+  "fields": [
+    {
+      "component": "text",
+      "label": "first name",
+      "type": "text",
+      "uuid": "44ba6724-679e-4314-b285-cb693d875770"
+    },
+    {
+      "component": "text",
+      "label": "last name",
+      "type": "text",
+      "uuid": "c97528e8-1bc8-485c-96da-d2eefdf82dee"
+    },
+    {
+      "component": "radio",
+      "label": "male",
+      "type": "radio",
+      "uuid": "7c0a9618-acb0-4d67-87f1-779e77100a0e"
+    },
+    {
+      "component": "radio",
+      "label": "female",
+      "type": "radio",
+      "uuid": "ce1727b4-03b6-4df1-a918-f56b1ab62009"
+    },
+    {
+      "component": "text",
+      "label": "information",
+      "type": "textarea",
+      "uuid": "22a94e1a-7054-4889-b5f8-efe81227325b"
+    }
+  ]
+}
